@@ -3,7 +3,8 @@
 
 
 function Footer() {
- <footer class="bg-gray-900 text-gray-400 py-10">
+ return(
+  <footer class="bg-gray-900 text-gray-400 py-10">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm">
       <p>&copy; 2026 VÉRTICE. Todos los derechos reservados.</p>
       <div class="flex space-x-6">
@@ -14,6 +15,7 @@ function Footer() {
       </div>
     </div>
   </footer>
+ )
 }
 
 export default Footer
