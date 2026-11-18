@@ -1,7 +1,8 @@
+import React from 'react'
 
-
-function contacto() {
-  <section id="contacto" class="py-20 bg-gray-50">
+function Contac() {
+ return(
+     <section id="contacto" class="py-20 bg-gray-50">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
 
@@ -100,6 +101,7 @@ function contacto() {
         </div>
       </div>
     </section>
+ )
 }
 
-export default contacto
+export default Contac

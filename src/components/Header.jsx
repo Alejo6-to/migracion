@@ -1,7 +1,8 @@
 
 
-import function Header() {
-  <header class="sticky top-0 z-50 bg-white bg-opacity-95 border-b border-gray-200 shadow-sm">
+function Header() {
+ return(
+   <header class="sticky top-0 z-50 bg-white bg-opacity-95 border-b border-gray-200 shadow-sm">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex flex-wrap items-center justify-between py-4">
         <a href="#home" class="flex items-center space-x-2 text-gray-900 font-extrabold text-xl tracking-tight">
@@ -24,6 +25,7 @@ import function Header() {
       </div>
     </div>
   </header>
+ )
 }
 
 export default Header
