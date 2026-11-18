@@ -1,9 +1,13 @@
 
 
+import Footer from "../components/Footer"
+import Header from "../components/Header"
 
 function Productos() {
   return(
-    <section id="productos" class="py-20 bg-gray-50">
+    <>
+    <Header/>
+     <section id="productos" class="py-20 bg-gray-50">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center max-w-2xl mx-auto mb-14">
           <span class="text-xs font-bold uppercase tracking-widest text-indigo-600">Catálogo Oficial</span>
@@ -269,6 +273,10 @@ function Productos() {
         </div>
       </div>
     </section>
+    <Footer/>
+    
+    </>
+ 
   )
 }
 

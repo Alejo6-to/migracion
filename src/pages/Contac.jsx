@@ -1,8 +1,11 @@
-import React from 'react'
-
+import Footer from "../components/Footer"
+import Header from "../components/Header"
 function Contac() {
  return(
-     <section id="contacto" class="py-20 bg-gray-50">
+
+    <>
+    <Header/>
+         <section id="contacto" class="py-20 bg-gray-50">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
 
@@ -101,6 +104,9 @@ function Contac() {
         </div>
       </div>
     </section>
+    <Footer/>
+    </>
+
  )
 }
 
